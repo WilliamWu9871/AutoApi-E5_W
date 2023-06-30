@@ -57,5 +57,4 @@ jobs:
         INPUT_GITHUB_TOKEN: ${{ secrets.INPUT_GITHUB_TOKEN }}
       with:
         branch: master
-        env:
-          INPUT_GITHUB_TOKEN: ${{ secrets.INPUT_GITHUB_TOKEN }}
+        INPUT_GITHUB_TOKEN: ${{ secrets.INPUT_GITHUB_TOKEN }}
