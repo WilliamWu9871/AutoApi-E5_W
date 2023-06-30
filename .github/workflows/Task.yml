@@ -6,7 +6,7 @@ on:
     types: [published]
   push:
     branches: 
-      - main
+      - master
   schedule:
     - cron: '12 */3 * * *'
   watch:
@@ -55,3 +55,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.TOKEN }}
+        branch: master
